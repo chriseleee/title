@@ -1,0 +1,16 @@
+//
+//  PrefixHeader.pch
+//  MyTextField
+//
+//  Created by chrise on 16/3/17.
+//  Copyright © 2016年 chrise. All rights reserved.
+//
+
+#ifndef PrefixHeader_h
+#define PrefixHeader_h
+
+
+#import "ASTextField.h"
+#import "QDTool.h"
+#import "UIView+Extension.h"
+#endif /* PrefixHeader_h */

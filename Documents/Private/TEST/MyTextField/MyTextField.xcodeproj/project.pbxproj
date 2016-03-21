@@ -1,0 +1,734 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8B03AD131C9FED8D00014D4C /* HWTitleMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B03AD121C9FED8D00014D4C /* HWTitleMenuViewController.m */; };
+		8B0590EE1C993CED00E947E2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B0590ED1C993CED00E947E2 /* main.m */; };
+		8B0590F11C993CED00E947E2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B0590F01C993CED00E947E2 /* AppDelegate.m */; };
+		8B0590F71C993CED00E947E2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B0590F51C993CED00E947E2 /* Main.storyboard */; };
+		8B0590F91C993CED00E947E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B0590F81C993CED00E947E2 /* Assets.xcassets */; };
+		8B0590FC1C993CED00E947E2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B0590FA1C993CED00E947E2 /* LaunchScreen.storyboard */; };
+		8B0591071C993CED00E947E2 /* MyTextFieldTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B0591061C993CED00E947E2 /* MyTextFieldTests.m */; };
+		8B0591121C993CED00E947E2 /* MyTextFieldUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B0591111C993CED00E947E2 /* MyTextFieldUITests.m */; };
+		8B05913E1C993D4A00E947E2 /* ASTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B0591211C993D4A00E947E2 /* ASTextField.m */; };
+		8B05913F1C993D4A00E947E2 /* Login_border@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B0591231C993D4A00E947E2 /* Login_border@2x.png */; };
+		8B0591401C993D4A00E947E2 /* password_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B0591241C993D4A00E947E2 /* password_icon.png */; };
+		8B0591411C993D4A00E947E2 /* password_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B0591251C993D4A00E947E2 /* password_icon@2x.png */; };
+		8B0591421C993D4A00E947E2 /* t1_password_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B0591261C993D4A00E947E2 /* t1_password_icon@2x.png */; };
+		8B0591431C993D4A00E947E2 /* t1_user_name_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B0591271C993D4A00E947E2 /* t1_user_name_icon@2x.png */; };
+		8B0591441C993D4A00E947E2 /* user_name_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B0591281C993D4A00E947E2 /* user_name_icon.png */; };
+		8B0591451C993D4A00E947E2 /* user_name_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B0591291C993D4A00E947E2 /* user_name_icon@2x.png */; };
+		8B0591461C993D4A00E947E2 /* QCheckBox.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B05912C1C993D4A00E947E2 /* QCheckBox.m */; };
+		8B0591471C993D4A00E947E2 /* checkbox1_checked.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B05912E1C993D4A00E947E2 /* checkbox1_checked.png */; };
+		8B0591481C993D4A00E947E2 /* checkbox1_checked@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B05912F1C993D4A00E947E2 /* checkbox1_checked@2x.png */; };
+		8B0591491C993D4A00E947E2 /* checkbox1_unchecked.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B0591301C993D4A00E947E2 /* checkbox1_unchecked.png */; };
+		8B05914A1C993D4A00E947E2 /* checkbox1_unchecked@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B0591311C993D4A00E947E2 /* checkbox1_unchecked@2x.png */; };
+		8B05914B1C993D4A00E947E2 /* t1_checkbox1_checked.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B0591321C993D4A00E947E2 /* t1_checkbox1_checked.png */; };
+		8B05914C1C993D4A00E947E2 /* t1_checkbox1_checked@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B0591331C993D4A00E947E2 /* t1_checkbox1_checked@2x.png */; };
+		8B05914D1C993D4A00E947E2 /* t1_checkbox1_unchecked.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B0591341C993D4A00E947E2 /* t1_checkbox1_unchecked.png */; };
+		8B05914E1C993D4A00E947E2 /* t1_checkbox1_unchecked@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B0591351C993D4A00E947E2 /* t1_checkbox1_unchecked@2x.png */; };
+		8B05914F1C993D4A00E947E2 /* QRadioButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B0591381C993D4A00E947E2 /* QRadioButton.m */; };
+		8B0591501C993D4A00E947E2 /* radio_checked@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B05913A1C993D4A00E947E2 /* radio_checked@2x.png */; };
+		8B0591511C993D4A00E947E2 /* radio_unchecked@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B05913B1C993D4A00E947E2 /* radio_unchecked@2x.png */; };
+		8B0591521C993D4A00E947E2 /* t1_radio_checked@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B05913C1C993D4A00E947E2 /* t1_radio_checked@2x.png */; };
+		8B0591531C993D4A00E947E2 /* t1_radio_unchecked@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B05913D1C993D4A00E947E2 /* t1_radio_unchecked@2x.png */; };
+		8B0591561C993E4400E947E2 /* QDTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B0591551C993E4400E947E2 /* QDTool.m */; };
+		8B500E361C9F8567004D3911 /* TextFieldView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B500E351C9F8567004D3911 /* TextFieldView.m */; };
+		8B500E391C9F8FFE004D3911 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B500E381C9F8FFE004D3911 /* UIView+Extension.m */; };
+		8B500E3E1C9FA7EF004D3911 /* HMTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B500E3D1C9FA7EF004D3911 /* HMTabBarController.m */; };
+		8B500E411C9FA89A004D3911 /* HMHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B500E401C9FA89A004D3911 /* HMHomeViewController.m */; };
+		8B500E441C9FA8BE004D3911 /* HMTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B500E431C9FA8BE004D3911 /* HMTabBar.m */; };
+		8B500E481C9FA8FC004D3911 /* HMDropDownMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B500E471C9FA8FC004D3911 /* HMDropDownMenu.m */; };
+		8B500E4B1C9FA933004D3911 /* HMDropDownViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B500E4A1C9FA933004D3911 /* HMDropDownViewController.m */; };
+		8BE2A1E41C9B9FD000889E5F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BE2A1E31C9B9FD000889E5F /* ViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8B0591031C993CED00E947E2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8B0590E11C993CED00E947E2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8B0590E81C993CED00E947E2;
+			remoteInfo = MyTextField;
+		};
+		8B05910E1C993CED00E947E2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8B0590E11C993CED00E947E2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8B0590E81C993CED00E947E2;
+			remoteInfo = MyTextField;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8B03AD111C9FED8D00014D4C /* HWTitleMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HWTitleMenuViewController.h; sourceTree = "<group>"; };
+		8B03AD121C9FED8D00014D4C /* HWTitleMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HWTitleMenuViewController.m; sourceTree = "<group>"; };
+		8B0590E91C993CED00E947E2 /* MyTextField.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyTextField.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B0590ED1C993CED00E947E2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8B0590EF1C993CED00E947E2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8B0590F01C993CED00E947E2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8B0590F61C993CED00E947E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8B0590F81C993CED00E947E2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8B0590FB1C993CED00E947E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8B0590FD1C993CED00E947E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B0591021C993CED00E947E2 /* MyTextFieldTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyTextFieldTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B0591061C993CED00E947E2 /* MyTextFieldTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyTextFieldTests.m; sourceTree = "<group>"; };
+		8B0591081C993CED00E947E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B05910D1C993CED00E947E2 /* MyTextFieldUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyTextFieldUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B0591111C993CED00E947E2 /* MyTextFieldUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyTextFieldUITests.m; sourceTree = "<group>"; };
+		8B0591131C993CED00E947E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B0591201C993D4A00E947E2 /* ASTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASTextField.h; sourceTree = "<group>"; };
+		8B0591211C993D4A00E947E2 /* ASTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASTextField.m; sourceTree = "<group>"; };
+		8B0591231C993D4A00E947E2 /* Login_border@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Login_border@2x.png"; sourceTree = "<group>"; };
+		8B0591241C993D4A00E947E2 /* password_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = password_icon.png; sourceTree = "<group>"; };
+		8B0591251C993D4A00E947E2 /* password_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "password_icon@2x.png"; sourceTree = "<group>"; };
+		8B0591261C993D4A00E947E2 /* t1_password_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "t1_password_icon@2x.png"; sourceTree = "<group>"; };
+		8B0591271C993D4A00E947E2 /* t1_user_name_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "t1_user_name_icon@2x.png"; sourceTree = "<group>"; };
+		8B0591281C993D4A00E947E2 /* user_name_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = user_name_icon.png; sourceTree = "<group>"; };
+		8B0591291C993D4A00E947E2 /* user_name_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "user_name_icon@2x.png"; sourceTree = "<group>"; };
+		8B05912B1C993D4A00E947E2 /* QCheckBox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QCheckBox.h; sourceTree = "<group>"; };
+		8B05912C1C993D4A00E947E2 /* QCheckBox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QCheckBox.m; sourceTree = "<group>"; };
+		8B05912E1C993D4A00E947E2 /* checkbox1_checked.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = checkbox1_checked.png; sourceTree = "<group>"; };
+		8B05912F1C993D4A00E947E2 /* checkbox1_checked@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "checkbox1_checked@2x.png"; sourceTree = "<group>"; };
+		8B0591301C993D4A00E947E2 /* checkbox1_unchecked.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = checkbox1_unchecked.png; sourceTree = "<group>"; };
+		8B0591311C993D4A00E947E2 /* checkbox1_unchecked@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "checkbox1_unchecked@2x.png"; sourceTree = "<group>"; };
+		8B0591321C993D4A00E947E2 /* t1_checkbox1_checked.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = t1_checkbox1_checked.png; sourceTree = "<group>"; };
+		8B0591331C993D4A00E947E2 /* t1_checkbox1_checked@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "t1_checkbox1_checked@2x.png"; sourceTree = "<group>"; };
+		8B0591341C993D4A00E947E2 /* t1_checkbox1_unchecked.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = t1_checkbox1_unchecked.png; sourceTree = "<group>"; };
+		8B0591351C993D4A00E947E2 /* t1_checkbox1_unchecked@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "t1_checkbox1_unchecked@2x.png"; sourceTree = "<group>"; };
+		8B0591371C993D4A00E947E2 /* QRadioButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QRadioButton.h; sourceTree = "<group>"; };
+		8B0591381C993D4A00E947E2 /* QRadioButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QRadioButton.m; sourceTree = "<group>"; };
+		8B05913A1C993D4A00E947E2 /* radio_checked@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "radio_checked@2x.png"; sourceTree = "<group>"; };
+		8B05913B1C993D4A00E947E2 /* radio_unchecked@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "radio_unchecked@2x.png"; sourceTree = "<group>"; };
+		8B05913C1C993D4A00E947E2 /* t1_radio_checked@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "t1_radio_checked@2x.png"; sourceTree = "<group>"; };
+		8B05913D1C993D4A00E947E2 /* t1_radio_unchecked@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "t1_radio_unchecked@2x.png"; sourceTree = "<group>"; };
+		8B0591541C993E4400E947E2 /* QDTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QDTool.h; sourceTree = "<group>"; };
+		8B0591551C993E4400E947E2 /* QDTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QDTool.m; sourceTree = "<group>"; };
+		8B500E341C9F8567004D3911 /* TextFieldView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextFieldView.h; sourceTree = "<group>"; };
+		8B500E351C9F8567004D3911 /* TextFieldView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextFieldView.m; sourceTree = "<group>"; };
+		8B500E371C9F8FFE004D3911 /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		8B500E381C9F8FFE004D3911 /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+		8B500E3C1C9FA7EF004D3911 /* HMTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMTabBarController.h; sourceTree = "<group>"; };
+		8B500E3D1C9FA7EF004D3911 /* HMTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMTabBarController.m; sourceTree = "<group>"; };
+		8B500E3F1C9FA89A004D3911 /* HMHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMHomeViewController.h; sourceTree = "<group>"; };
+		8B500E401C9FA89A004D3911 /* HMHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMHomeViewController.m; sourceTree = "<group>"; };
+		8B500E421C9FA8BE004D3911 /* HMTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMTabBar.h; sourceTree = "<group>"; };
+		8B500E431C9FA8BE004D3911 /* HMTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMTabBar.m; sourceTree = "<group>"; };
+		8B500E461C9FA8FC004D3911 /* HMDropDownMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMDropDownMenu.h; sourceTree = "<group>"; };
+		8B500E471C9FA8FC004D3911 /* HMDropDownMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMDropDownMenu.m; sourceTree = "<group>"; };
+		8B500E491C9FA933004D3911 /* HMDropDownViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMDropDownViewController.h; sourceTree = "<group>"; };
+		8B500E4A1C9FA933004D3911 /* HMDropDownViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMDropDownViewController.m; sourceTree = "<group>"; };
+		8BCAA80C1C9A9E62003E301B /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = PrefixHeader.pch; path = ../PrefixHeader.pch; sourceTree = "<group>"; };
+		8BE2A1E21C9B9FD000889E5F /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8BE2A1E31C9B9FD000889E5F /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8B0590E61C993CED00E947E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B0590FF1C993CED00E947E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B05910A1C993CED00E947E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8B0590E01C993CED00E947E2 = {
+			isa = PBXGroup;
+			children = (
+				8B0590EB1C993CED00E947E2 /* MyTextField */,
+				8B0591051C993CED00E947E2 /* MyTextFieldTests */,
+				8B0591101C993CED00E947E2 /* MyTextFieldUITests */,
+				8B0590EA1C993CED00E947E2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8B0590EA1C993CED00E947E2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8B0590E91C993CED00E947E2 /* MyTextField.app */,
+				8B0591021C993CED00E947E2 /* MyTextFieldTests.xctest */,
+				8B05910D1C993CED00E947E2 /* MyTextFieldUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8B0590EB1C993CED00E947E2 /* MyTextField */ = {
+			isa = PBXGroup;
+			children = (
+				8B500E3B1C9F985D004D3911 /* Tool */,
+				8B05911F1C993D4A00E947E2 /* ASTextField */,
+				8B05912A1C993D4A00E947E2 /* QCheckbox */,
+				8B0591361C993D4A00E947E2 /* QRadioButton */,
+				8B0590EF1C993CED00E947E2 /* AppDelegate.h */,
+				8B0590F01C993CED00E947E2 /* AppDelegate.m */,
+				8BE2A1E21C9B9FD000889E5F /* ViewController.h */,
+				8BE2A1E31C9B9FD000889E5F /* ViewController.m */,
+				8B500E341C9F8567004D3911 /* TextFieldView.h */,
+				8B500E351C9F8567004D3911 /* TextFieldView.m */,
+				8B500E3C1C9FA7EF004D3911 /* HMTabBarController.h */,
+				8B500E3D1C9FA7EF004D3911 /* HMTabBarController.m */,
+				8B500E3F1C9FA89A004D3911 /* HMHomeViewController.h */,
+				8B500E401C9FA89A004D3911 /* HMHomeViewController.m */,
+				8B500E421C9FA8BE004D3911 /* HMTabBar.h */,
+				8B500E431C9FA8BE004D3911 /* HMTabBar.m */,
+				8B03AD111C9FED8D00014D4C /* HWTitleMenuViewController.h */,
+				8B03AD121C9FED8D00014D4C /* HWTitleMenuViewController.m */,
+				8B500E461C9FA8FC004D3911 /* HMDropDownMenu.h */,
+				8B500E471C9FA8FC004D3911 /* HMDropDownMenu.m */,
+				8B500E491C9FA933004D3911 /* HMDropDownViewController.h */,
+				8B500E4A1C9FA933004D3911 /* HMDropDownViewController.m */,
+				8B0590F51C993CED00E947E2 /* Main.storyboard */,
+				8B0590F81C993CED00E947E2 /* Assets.xcassets */,
+				8B0590FA1C993CED00E947E2 /* LaunchScreen.storyboard */,
+				8B0590FD1C993CED00E947E2 /* Info.plist */,
+				8B0590EC1C993CED00E947E2 /* Supporting Files */,
+			);
+			path = MyTextField;
+			sourceTree = "<group>";
+		};
+		8B0590EC1C993CED00E947E2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8B0590ED1C993CED00E947E2 /* main.m */,
+				8BCAA80C1C9A9E62003E301B /* PrefixHeader.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8B0591051C993CED00E947E2 /* MyTextFieldTests */ = {
+			isa = PBXGroup;
+			children = (
+				8B0591061C993CED00E947E2 /* MyTextFieldTests.m */,
+				8B0591081C993CED00E947E2 /* Info.plist */,
+			);
+			path = MyTextFieldTests;
+			sourceTree = "<group>";
+		};
+		8B0591101C993CED00E947E2 /* MyTextFieldUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8B0591111C993CED00E947E2 /* MyTextFieldUITests.m */,
+				8B0591131C993CED00E947E2 /* Info.plist */,
+			);
+			path = MyTextFieldUITests;
+			sourceTree = "<group>";
+		};
+		8B05911F1C993D4A00E947E2 /* ASTextField */ = {
+			isa = PBXGroup;
+			children = (
+				8B0591201C993D4A00E947E2 /* ASTextField.h */,
+				8B0591211C993D4A00E947E2 /* ASTextField.m */,
+				8B0591221C993D4A00E947E2 /* Resources */,
+			);
+			path = ASTextField;
+			sourceTree = "<group>";
+		};
+		8B0591221C993D4A00E947E2 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8B0591231C993D4A00E947E2 /* Login_border@2x.png */,
+				8B0591241C993D4A00E947E2 /* password_icon.png */,
+				8B0591251C993D4A00E947E2 /* password_icon@2x.png */,
+				8B0591261C993D4A00E947E2 /* t1_password_icon@2x.png */,
+				8B0591271C993D4A00E947E2 /* t1_user_name_icon@2x.png */,
+				8B0591281C993D4A00E947E2 /* user_name_icon.png */,
+				8B0591291C993D4A00E947E2 /* user_name_icon@2x.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		8B05912A1C993D4A00E947E2 /* QCheckbox */ = {
+			isa = PBXGroup;
+			children = (
+				8B05912B1C993D4A00E947E2 /* QCheckBox.h */,
+				8B05912C1C993D4A00E947E2 /* QCheckBox.m */,
+				8B05912D1C993D4A00E947E2 /* source */,
+			);
+			path = QCheckbox;
+			sourceTree = "<group>";
+		};
+		8B05912D1C993D4A00E947E2 /* source */ = {
+			isa = PBXGroup;
+			children = (
+				8B05912E1C993D4A00E947E2 /* checkbox1_checked.png */,
+				8B05912F1C993D4A00E947E2 /* checkbox1_checked@2x.png */,
+				8B0591301C993D4A00E947E2 /* checkbox1_unchecked.png */,
+				8B0591311C993D4A00E947E2 /* checkbox1_unchecked@2x.png */,
+				8B0591321C993D4A00E947E2 /* t1_checkbox1_checked.png */,
+				8B0591331C993D4A00E947E2 /* t1_checkbox1_checked@2x.png */,
+				8B0591341C993D4A00E947E2 /* t1_checkbox1_unchecked.png */,
+				8B0591351C993D4A00E947E2 /* t1_checkbox1_unchecked@2x.png */,
+			);
+			path = source;
+			sourceTree = "<group>";
+		};
+		8B0591361C993D4A00E947E2 /* QRadioButton */ = {
+			isa = PBXGroup;
+			children = (
+				8B0591371C993D4A00E947E2 /* QRadioButton.h */,
+				8B0591381C993D4A00E947E2 /* QRadioButton.m */,
+				8B0591391C993D4A00E947E2 /* source */,
+			);
+			path = QRadioButton;
+			sourceTree = "<group>";
+		};
+		8B0591391C993D4A00E947E2 /* source */ = {
+			isa = PBXGroup;
+			children = (
+				8B05913A1C993D4A00E947E2 /* radio_checked@2x.png */,
+				8B05913B1C993D4A00E947E2 /* radio_unchecked@2x.png */,
+				8B05913C1C993D4A00E947E2 /* t1_radio_checked@2x.png */,
+				8B05913D1C993D4A00E947E2 /* t1_radio_unchecked@2x.png */,
+			);
+			path = source;
+			sourceTree = "<group>";
+		};
+		8B500E3B1C9F985D004D3911 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				8B0591541C993E4400E947E2 /* QDTool.h */,
+				8B0591551C993E4400E947E2 /* QDTool.m */,
+				8B500E371C9F8FFE004D3911 /* UIView+Extension.h */,
+				8B500E381C9F8FFE004D3911 /* UIView+Extension.m */,
+			);
+			name = Tool;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8B0590E81C993CED00E947E2 /* MyTextField */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B0591161C993CED00E947E2 /* Build configuration list for PBXNativeTarget "MyTextField" */;
+			buildPhases = (
+				8B0590E51C993CED00E947E2 /* Sources */,
+				8B0590E61C993CED00E947E2 /* Frameworks */,
+				8B0590E71C993CED00E947E2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyTextField;
+			productName = MyTextField;
+			productReference = 8B0590E91C993CED00E947E2 /* MyTextField.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8B0591011C993CED00E947E2 /* MyTextFieldTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B0591191C993CED00E947E2 /* Build configuration list for PBXNativeTarget "MyTextFieldTests" */;
+			buildPhases = (
+				8B0590FE1C993CED00E947E2 /* Sources */,
+				8B0590FF1C993CED00E947E2 /* Frameworks */,
+				8B0591001C993CED00E947E2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8B0591041C993CED00E947E2 /* PBXTargetDependency */,
+			);
+			name = MyTextFieldTests;
+			productName = MyTextFieldTests;
+			productReference = 8B0591021C993CED00E947E2 /* MyTextFieldTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8B05910C1C993CED00E947E2 /* MyTextFieldUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B05911C1C993CED00E947E2 /* Build configuration list for PBXNativeTarget "MyTextFieldUITests" */;
+			buildPhases = (
+				8B0591091C993CED00E947E2 /* Sources */,
+				8B05910A1C993CED00E947E2 /* Frameworks */,
+				8B05910B1C993CED00E947E2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8B05910F1C993CED00E947E2 /* PBXTargetDependency */,
+			);
+			name = MyTextFieldUITests;
+			productName = MyTextFieldUITests;
+			productReference = 8B05910D1C993CED00E947E2 /* MyTextFieldUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8B0590E11C993CED00E947E2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = chrise;
+				TargetAttributes = {
+					8B0590E81C993CED00E947E2 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					8B0591011C993CED00E947E2 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 8B0590E81C993CED00E947E2;
+					};
+					8B05910C1C993CED00E947E2 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 8B0590E81C993CED00E947E2;
+					};
+				};
+			};
+			buildConfigurationList = 8B0590E41C993CED00E947E2 /* Build configuration list for PBXProject "MyTextField" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8B0590E01C993CED00E947E2;
+			productRefGroup = 8B0590EA1C993CED00E947E2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8B0590E81C993CED00E947E2 /* MyTextField */,
+				8B0591011C993CED00E947E2 /* MyTextFieldTests */,
+				8B05910C1C993CED00E947E2 /* MyTextFieldUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8B0590E71C993CED00E947E2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B0591431C993D4A00E947E2 /* t1_user_name_icon@2x.png in Resources */,
+				8B0591411C993D4A00E947E2 /* password_icon@2x.png in Resources */,
+				8B0590FC1C993CED00E947E2 /* LaunchScreen.storyboard in Resources */,
+				8B0591511C993D4A00E947E2 /* radio_unchecked@2x.png in Resources */,
+				8B0591531C993D4A00E947E2 /* t1_radio_unchecked@2x.png in Resources */,
+				8B0591501C993D4A00E947E2 /* radio_checked@2x.png in Resources */,
+				8B0591471C993D4A00E947E2 /* checkbox1_checked.png in Resources */,
+				8B0591451C993D4A00E947E2 /* user_name_icon@2x.png in Resources */,
+				8B0590F91C993CED00E947E2 /* Assets.xcassets in Resources */,
+				8B05913F1C993D4A00E947E2 /* Login_border@2x.png in Resources */,
+				8B0591521C993D4A00E947E2 /* t1_radio_checked@2x.png in Resources */,
+				8B0590F71C993CED00E947E2 /* Main.storyboard in Resources */,
+				8B05914A1C993D4A00E947E2 /* checkbox1_unchecked@2x.png in Resources */,
+				8B0591441C993D4A00E947E2 /* user_name_icon.png in Resources */,
+				8B05914D1C993D4A00E947E2 /* t1_checkbox1_unchecked.png in Resources */,
+				8B05914C1C993D4A00E947E2 /* t1_checkbox1_checked@2x.png in Resources */,
+				8B0591401C993D4A00E947E2 /* password_icon.png in Resources */,
+				8B05914E1C993D4A00E947E2 /* t1_checkbox1_unchecked@2x.png in Resources */,
+				8B05914B1C993D4A00E947E2 /* t1_checkbox1_checked.png in Resources */,
+				8B0591491C993D4A00E947E2 /* checkbox1_unchecked.png in Resources */,
+				8B0591421C993D4A00E947E2 /* t1_password_icon@2x.png in Resources */,
+				8B0591481C993D4A00E947E2 /* checkbox1_checked@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B0591001C993CED00E947E2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B05910B1C993CED00E947E2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8B0590E51C993CED00E947E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B500E391C9F8FFE004D3911 /* UIView+Extension.m in Sources */,
+				8B05913E1C993D4A00E947E2 /* ASTextField.m in Sources */,
+				8BE2A1E41C9B9FD000889E5F /* ViewController.m in Sources */,
+				8B0590F11C993CED00E947E2 /* AppDelegate.m in Sources */,
+				8B03AD131C9FED8D00014D4C /* HWTitleMenuViewController.m in Sources */,
+				8B05914F1C993D4A00E947E2 /* QRadioButton.m in Sources */,
+				8B0590EE1C993CED00E947E2 /* main.m in Sources */,
+				8B500E3E1C9FA7EF004D3911 /* HMTabBarController.m in Sources */,
+				8B500E361C9F8567004D3911 /* TextFieldView.m in Sources */,
+				8B500E411C9FA89A004D3911 /* HMHomeViewController.m in Sources */,
+				8B0591561C993E4400E947E2 /* QDTool.m in Sources */,
+				8B500E4B1C9FA933004D3911 /* HMDropDownViewController.m in Sources */,
+				8B500E441C9FA8BE004D3911 /* HMTabBar.m in Sources */,
+				8B0591461C993D4A00E947E2 /* QCheckBox.m in Sources */,
+				8B500E481C9FA8FC004D3911 /* HMDropDownMenu.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B0590FE1C993CED00E947E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B0591071C993CED00E947E2 /* MyTextFieldTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B0591091C993CED00E947E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B0591121C993CED00E947E2 /* MyTextFieldUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8B0591041C993CED00E947E2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8B0590E81C993CED00E947E2 /* MyTextField */;
+			targetProxy = 8B0591031C993CED00E947E2 /* PBXContainerItemProxy */;
+		};
+		8B05910F1C993CED00E947E2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8B0590E81C993CED00E947E2 /* MyTextField */;
+			targetProxy = 8B05910E1C993CED00E947E2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8B0590F51C993CED00E947E2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8B0590F61C993CED00E947E2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8B0590FA1C993CED00E947E2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8B0590FB1C993CED00E947E2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8B0591141C993CED00E947E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8B0591151C993CED00E947E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8B0591171C993CED00E947E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = PrefixHeader.pch;
+				INFOPLIST_FILE = MyTextField/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = CG.MyTextField;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8B0591181C993CED00E947E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = PrefixHeader.pch;
+				INFOPLIST_FILE = MyTextField/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = CG.MyTextField;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8B05911A1C993CED00E947E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MyTextFieldTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = CG.MyTextFieldTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyTextField.app/MyTextField";
+			};
+			name = Debug;
+		};
+		8B05911B1C993CED00E947E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MyTextFieldTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = CG.MyTextFieldTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyTextField.app/MyTextField";
+			};
+			name = Release;
+		};
+		8B05911D1C993CED00E947E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MyTextFieldUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = CG.MyTextFieldUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MyTextField;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		8B05911E1C993CED00E947E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MyTextFieldUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = CG.MyTextFieldUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MyTextField;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8B0590E41C993CED00E947E2 /* Build configuration list for PBXProject "MyTextField" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B0591141C993CED00E947E2 /* Debug */,
+				8B0591151C993CED00E947E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B0591161C993CED00E947E2 /* Build configuration list for PBXNativeTarget "MyTextField" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B0591171C993CED00E947E2 /* Debug */,
+				8B0591181C993CED00E947E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B0591191C993CED00E947E2 /* Build configuration list for PBXNativeTarget "MyTextFieldTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B05911A1C993CED00E947E2 /* Debug */,
+				8B05911B1C993CED00E947E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B05911C1C993CED00E947E2 /* Build configuration list for PBXNativeTarget "MyTextFieldUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B05911D1C993CED00E947E2 /* Debug */,
+				8B05911E1C993CED00E947E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8B0590E11C993CED00E947E2 /* Project object */;
+}
